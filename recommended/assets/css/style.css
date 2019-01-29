@@ -1,0 +1,416 @@
+/* This is the professional portfolio css file.
+
+	 Written by Alex Chalyy on 1/20/2019. */
+	 
+header
+{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+	margin-top: -100px;
+	
+}
+
+body {
+	background-image: url("../images/white_carbon.png");
+	z-index: 1;
+	
+}
+
+.brand	{
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: #dddddd;
+	height: 400px;
+	padding-bottom: 1%;
+	border-color: #dddddd;
+}
+
+#name
+{
+	float: left;
+	background: #4aaaa5;
+	color: white;
+	padding: 20px;
+	z-index: 2;
+	position: static;
+	margin-top: 2.5%;
+}
+
+#contact
+
+{	
+	float: right;
+	padding: 20px;
+	padding-top: 4%;
+	background: #ffffff;
+	z-index: 2;
+	position: static;
+	margin-top: 1%;
+	
+}
+
+#portfolio
+
+{	
+	float: right;
+	padding: 20px;
+	padding-top: 4%;
+	background: #ffffff;
+	z-index: 2;
+	position: static;
+	margin-top: 1%;
+	
+}
+
+#about	{
+	float: right;
+	padding: 20px;
+	padding-top: 4%;
+	background: #ffffff;
+	z-index: 2;
+	position: static;
+	margin-top: 1%;
+}
+
+#me
+{
+	text-align: left;
+	background: #ffffff;
+	padding-left: 20px;
+	padding-top: -10%;
+	color: #4aaaa5;
+	font-size: 200%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	position: relative;
+	padding-top: -20%;
+}
+
+#copyright	{
+	text-align: center;
+	
+}
+
+.headers
+{
+	background: #ffffff;
+}
+
+#header_background	{
+	position: relative;
+	height: 100px;
+	background: #ffffff;
+	z-index: -1;
+	width: window auto;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+} 
+
+#gap	{
+	background-image: url("../images/white_carbon.png");
+	position: relative;
+	height: 20px;
+	margin-top: -21px;
+}
+
+#dividor	{
+	padding-left: 20px;
+	margin-top: -60px;
+}
+
+#image	{
+	padding-left: 20px;
+	float: left;
+}
+
+#occupation	{
+	float: left;
+	padding-left: 20px;
+	margin-top: -16px;
+}
+
+#experience	{
+	float: left;
+	padding-left: 20px;
+}
+
+#brand_statement	{
+	float: left;
+	margin-top: -40px;
+	padding-left: 180px;
+}
+
+.footer	{
+	margin-top: 200px;
+	background: #666666;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-top: 450px;
+	height: 65px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	margin-left: -10px;
+	margin-right: 10px;
+}
+
+#teal_line	{
+	background: #4aaaa5;
+	width: window auto;
+	height: 10px;
+	margin-top: -28px;
+	text-align: center;
+}
+
+#copyright	{
+	margin-top: 20px;
+}
+
+.contact_box	{
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: #dddddd;
+	height: 640px;
+	margin-bottom: -100px;
+	border-color: #dddddd;
+}
+
+.contact_footer	{
+	background: #666666;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-top: 250px;
+	height: 65px;
+}
+
+#visitor	{
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	padding-right: 10px;
+}
+
+#email	{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#message	{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#visitor_name_box	{
+	clear: all;
+	padding-top: 30px;
+	margin-left: 20px;
+	width: 100px;
+	opacity: 20;
+}
+
+#email_box	{
+	clear: all;
+	padding-top: 3px;
+	margin-left: 20px;
+	opacity: 20;
+}
+
+#text_box	{
+	color: #777777;
+	opacity: 20;
+}
+
+#emailbox	{
+	color: #777777;
+	opacity: 20;
+}
+
+#message_box	{
+	margin-left: 20px;
+	height: 120px;
+	margin-bottom: -10px;
+}
+
+#submit	{
+	position: relative;
+	margin-left: 485px;
+	margin-top: 200px;
+}
+
+#submit_button	{
+	background: #4aaaa5;
+	color: white;
+	position: relative;
+	margin-left: 330px;
+	margin-top: -1000px;
+	width: 80px;
+	height: 30px;
+	padding-left: -50px;
+}
+
+#button_container	{
+	position: relative;
+	margin-top: 20px;
+	margin-left: -32.5%;
+}
+
+#space	{
+	width: 2000px;
+	height: 30px;
+	margin-top: 20px;
+	background-image: url("../images/white_carbon.png");
+	color: url("../images/white_carbon.png");
+}
+
+#space_1	{
+	width: 1000px;
+	height: 30px;
+	margin-top: 450px;
+	background-image: url("../images/white_carbon.png");
+	color: url("../images/white_carbon.png");
+}
+
+#image1	{
+	z-index: 100;
+	margin-left: 2%;
+	display: inline-block;
+	position: relative;
+}
+
+#image2	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+#image3	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+#image4	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+#image5	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+.contact_box_2	{
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: #dddddd;
+	margin-bottom: -100px;
+	padding-bottom: 2%;
+	border-color: #dddddd;
+}
+
+#line	{
+	padding-left: -10px;
+	margin-left: 19px;
+	margin-right: 29px;
+	margin-top: -1%;
+	margin-bottom: 3%;
+}
+
+#button1	{
+	position: relative;
+	margin-top: -4%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	padding-right: -10%;
+}
+
+#hangman	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-left: 0%;
+	padding: 10%;
+	padding-left: 24%;
+	padding-right: 26%;
+}
+
+#rpg {
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+	width: 100%;
+	height: 14%;
+}
+
+#trivia	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 8%;
+	width: 100%;
+	text-align: center;
+	padding-top: 11%;
+	padding-bottom: 11%;
+}
+
+#rutgers	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 8%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	text-align: center;
+	padding-left: 7%;
+	padding-right: 7%;
+	width: 86%;
+	font-size: 80%;
+	height: 15%;
+}
+
+#rock	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 8%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	text-align: center;
+	padding-left: 7%;
+	padding-right: 7%;
+	width: 86%;
+	font-size: 80%;
+	height: 15%;
+}

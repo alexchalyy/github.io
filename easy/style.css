@@ -1,0 +1,136 @@
+/* HW Wireframe css file.
+
+   Written by Alex Chalyy on 1/20/2019. */
+
+
+body
+{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+}
+
+header  
+{
+    background: #ebebeb;
+    text-align: center;
+    float: center;
+    margin: auto;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+nav
+{
+    background: #ebebeb;
+    text-align: center;
+    float: center;
+    margin: auto;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+section
+{
+    background: #ebebeb;
+    margin-top: 10px;
+    text-align: center;
+    width: 495px;
+    float: left;
+    height: 270px;
+    padding-top: 10px;
+    position: static;
+    margin-bottom: 10px;
+}
+
+aside
+{
+    float: right;
+    background: #ebebeb;
+    width: 450px;
+    margin-top: 10px;
+    text-align: center;
+    height: 270px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    clear: both;
+    text-align: center;
+    background: #ebebeb;
+    padding: 20px;
+}
+
+#article
+{
+    color: #ebebeb;
+    background: #777;
+    position: relative;
+    margin: 10px;
+    height: 180px;
+    padding: 1px;
+}
+
+#headers
+{
+    background: #ebebeb;
+    color:  #777; 
+    padding: 10px;
+    position: relative;
+    width: 430px; 
+    text-align: center;
+    margin: auto;
+}
+
+#paragraph
+{
+    background: #ebebeb;
+    color:  #777; 
+    padding: 10px;
+    position: relative;
+    width: 430px; 
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+    margin-right: 2px;
+    margin-top: 80px;
+}
+
+#header1   {
+    background: #ebebeb;
+    color: #777;
+    float: left;
+    text-align: right;
+    padding: 10px;
+    margin-left: 10px;
+    width: 41%;
+    padding-right: -20px;
+    padding-right: -20%;
+}
+
+#header2    {
+    background: #ebebeb;
+    color: #777;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 5%;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#header3    {
+    background: #ebebeb;
+    color: #777;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    width: 40.3%;
+    padding-left: -10px;
+}
+ 
